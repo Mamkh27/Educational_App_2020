@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825911B9245110590054CA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911B8245110590054CA46 /* AppDelegate.swift */; };
+		825911BB245110590054CA46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911BA245110590054CA46 /* SceneDelegate.swift */; };
+		825911BE245110590054CA46 /* Paul_the_Tutor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 825911BC245110590054CA46 /* Paul_the_Tutor.xcdatamodeld */; };
+		825911C0245110590054CA46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911BF245110590054CA46 /* ContentView.swift */; };
+		825911C22451105C0054CA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825911C12451105C0054CA46 /* Assets.xcassets */; };
+		825911C52451105C0054CA46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825911C42451105C0054CA46 /* Preview Assets.xcassets */; };
+		825911C82451105C0054CA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825911C62451105C0054CA46 /* LaunchScreen.storyboard */; };
+		825911D32451105D0054CA46 /* Paul_the_TutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911D22451105D0054CA46 /* Paul_the_TutorTests.swift */; };
+		825911DE2451105D0054CA46 /* Paul_the_TutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911DD2451105D0054CA46 /* Paul_the_TutorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		825911CF2451105D0054CA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825911AD245110590054CA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825911B4245110590054CA46;
+			remoteInfo = "Paul the Tutor";
+		};
+		825911DA2451105D0054CA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825911AD245110590054CA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825911B4245110590054CA46;
+			remoteInfo = "Paul the Tutor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		825911B5245110590054CA46 /* Paul the Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paul the Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		825911B8245110590054CA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		825911BA245110590054CA46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		825911BD245110590054CA46 /* Paul_the_Tutor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paul_the_Tutor.xcdatamodel; sourceTree = "<group>"; };
+		825911BF245110590054CA46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		825911C12451105C0054CA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825911C42451105C0054CA46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		825911C72451105C0054CA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825911C92451105C0054CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825911CE2451105D0054CA46 /* Paul the TutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paul the TutorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		825911D22451105D0054CA46 /* Paul_the_TutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paul_the_TutorTests.swift; sourceTree = "<group>"; };
+		825911D42451105D0054CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825911D92451105D0054CA46 /* Paul the TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paul the TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		825911DD2451105D0054CA46 /* Paul_the_TutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paul_the_TutorUITests.swift; sourceTree = "<group>"; };
+		825911DF2451105D0054CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825911B2245110590054CA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911CB2451105D0054CA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911D62451105D0054CA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825911AC245110590054CA46 = {
+			isa = PBXGroup;
+			children = (
+				825911B7245110590054CA46 /* Paul the Tutor */,
+				825911D12451105D0054CA46 /* Paul the TutorTests */,
+				825911DC2451105D0054CA46 /* Paul the TutorUITests */,
+				825911B6245110590054CA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825911B6245110590054CA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825911B5245110590054CA46 /* Paul the Tutor.app */,
+				825911CE2451105D0054CA46 /* Paul the TutorTests.xctest */,
+				825911D92451105D0054CA46 /* Paul the TutorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825911B7245110590054CA46 /* Paul the Tutor */ = {
+			isa = PBXGroup;
+			children = (
+				825911B8245110590054CA46 /* AppDelegate.swift */,
+				825911BA245110590054CA46 /* SceneDelegate.swift */,
+				825911BF245110590054CA46 /* ContentView.swift */,
+				825911C12451105C0054CA46 /* Assets.xcassets */,
+				825911C62451105C0054CA46 /* LaunchScreen.storyboard */,
+				825911C92451105C0054CA46 /* Info.plist */,
+				825911BC245110590054CA46 /* Paul_the_Tutor.xcdatamodeld */,
+				825911C32451105C0054CA46 /* Preview Content */,
+			);
+			path = "Paul the Tutor";
+			sourceTree = "<group>";
+		};
+		825911C32451105C0054CA46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				825911C42451105C0054CA46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		825911D12451105D0054CA46 /* Paul the TutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				825911D22451105D0054CA46 /* Paul_the_TutorTests.swift */,
+				825911D42451105D0054CA46 /* Info.plist */,
+			);
+			path = "Paul the TutorTests";
+			sourceTree = "<group>";
+		};
+		825911DC2451105D0054CA46 /* Paul the TutorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				825911DD2451105D0054CA46 /* Paul_the_TutorUITests.swift */,
+				825911DF2451105D0054CA46 /* Info.plist */,
+			);
+			path = "Paul the TutorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825911B4245110590054CA46 /* Paul the Tutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825911E22451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the Tutor" */;
+			buildPhases = (
+				825911B1245110590054CA46 /* Sources */,
+				825911B2245110590054CA46 /* Frameworks */,
+				825911B3245110590054CA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paul the Tutor";
+			productName = "Paul the Tutor";
+			productReference = 825911B5245110590054CA46 /* Paul the Tutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		825911CD2451105D0054CA46 /* Paul the TutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825911E52451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the TutorTests" */;
+			buildPhases = (
+				825911CA2451105D0054CA46 /* Sources */,
+				825911CB2451105D0054CA46 /* Frameworks */,
+				825911CC2451105D0054CA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825911D02451105D0054CA46 /* PBXTargetDependency */,
+			);
+			name = "Paul the TutorTests";
+			productName = "Paul the TutorTests";
+			productReference = 825911CE2451105D0054CA46 /* Paul the TutorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		825911D82451105D0054CA46 /* Paul the TutorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825911E82451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the TutorUITests" */;
+			buildPhases = (
+				825911D52451105D0054CA46 /* Sources */,
+				825911D62451105D0054CA46 /* Frameworks */,
+				825911D72451105D0054CA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825911DB2451105D0054CA46 /* PBXTargetDependency */,
+			);
+			name = "Paul the TutorUITests";
+			productName = "Paul the TutorUITests";
+			productReference = 825911D92451105D0054CA46 /* Paul the TutorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825911AD245110590054CA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					825911B4245110590054CA46 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					825911CD2451105D0054CA46 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 825911B4245110590054CA46;
+					};
+					825911D82451105D0054CA46 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 825911B4245110590054CA46;
+					};
+				};
+			};
+			buildConfigurationList = 825911B0245110590054CA46 /* Build configuration list for PBXProject "Paul the Tutor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825911AC245110590054CA46;
+			productRefGroup = 825911B6245110590054CA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825911B4245110590054CA46 /* Paul the Tutor */,
+				825911CD2451105D0054CA46 /* Paul the TutorTests */,
+				825911D82451105D0054CA46 /* Paul the TutorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825911B3245110590054CA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825911C82451105C0054CA46 /* LaunchScreen.storyboard in Resources */,
+				825911C52451105C0054CA46 /* Preview Assets.xcassets in Resources */,
+				825911C22451105C0054CA46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911CC2451105D0054CA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911D72451105D0054CA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825911B1245110590054CA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825911BE245110590054CA46 /* Paul_the_Tutor.xcdatamodeld in Sources */,
+				825911B9245110590054CA46 /* AppDelegate.swift in Sources */,
+				825911C0245110590054CA46 /* ContentView.swift in Sources */,
+				825911BB245110590054CA46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911CA2451105D0054CA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825911D32451105D0054CA46 /* Paul_the_TutorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825911D52451105D0054CA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825911DE2451105D0054CA46 /* Paul_the_TutorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		825911D02451105D0054CA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825911B4245110590054CA46 /* Paul the Tutor */;
+			targetProxy = 825911CF2451105D0054CA46 /* PBXContainerItemProxy */;
+		};
+		825911DB2451105D0054CA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825911B4245110590054CA46 /* Paul the Tutor */;
+			targetProxy = 825911DA2451105D0054CA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		825911C62451105C0054CA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825911C72451105C0054CA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825911E02451105D0054CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		825911E12451105D0054CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825911E32451105D0054CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paul the Tutor/Preview Content\"";
+				DEVELOPMENT_TEAM = KKBC76327S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Paul the Tutor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-Tutor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		825911E42451105D0054CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paul the Tutor/Preview Content\"";
+				DEVELOPMENT_TEAM = KKBC76327S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Paul the Tutor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-Tutor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		825911E62451105D0054CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBC76327S;
+				INFOPLIST_FILE = "Paul the TutorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-TutorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paul the Tutor.app/Paul the Tutor";
+			};
+			name = Debug;
+		};
+		825911E72451105D0054CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBC76327S;
+				INFOPLIST_FILE = "Paul the TutorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-TutorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paul the Tutor.app/Paul the Tutor";
+			};
+			name = Release;
+		};
+		825911E92451105D0054CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBC76327S;
+				INFOPLIST_FILE = "Paul the TutorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-TutorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paul the Tutor";
+			};
+			name = Debug;
+		};
+		825911EA2451105D0054CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBC76327S;
+				INFOPLIST_FILE = "Paul the TutorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mampz.Paul-the-TutorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paul the Tutor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825911B0245110590054CA46 /* Build configuration list for PBXProject "Paul the Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825911E02451105D0054CA46 /* Debug */,
+				825911E12451105D0054CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825911E22451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825911E32451105D0054CA46 /* Debug */,
+				825911E42451105D0054CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825911E52451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the TutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825911E62451105D0054CA46 /* Debug */,
+				825911E72451105D0054CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825911E82451105D0054CA46 /* Build configuration list for PBXNativeTarget "Paul the TutorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825911E92451105D0054CA46 /* Debug */,
+				825911EA2451105D0054CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		825911BC245110590054CA46 /* Paul_the_Tutor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				825911BD245110590054CA46 /* Paul_the_Tutor.xcdatamodel */,
+			);
+			currentVersion = 825911BD245110590054CA46 /* Paul_the_Tutor.xcdatamodel */;
+			path = Paul_the_Tutor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 825911AD245110590054CA46 /* Project object */;
+}
