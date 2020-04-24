@@ -16,6 +16,9 @@
 		825911C82451105C0054CA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825911C62451105C0054CA46 /* LaunchScreen.storyboard */; };
 		825911D32451105D0054CA46 /* Paul_the_TutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911D22451105D0054CA46 /* Paul_the_TutorTests.swift */; };
 		825911DE2451105D0054CA46 /* Paul_the_TutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911DD2451105D0054CA46 /* Paul_the_TutorUITests.swift */; };
+		825911EE2451243B0054CA46 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911ED2451243B0054CA46 /* BarView.swift */; };
+		825911F024513A3A0054CA46 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911EF24513A3A0054CA46 /* AdditionView.swift */; };
+		825911F224513B580054CA46 /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825911F124513B580054CA46 /* SubtractionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		825911D92451105D0054CA46 /* Paul the TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paul the TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		825911DD2451105D0054CA46 /* Paul_the_TutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paul_the_TutorUITests.swift; sourceTree = "<group>"; };
 		825911DF2451105D0054CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825911ED2451243B0054CA46 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		825911EF24513A3A0054CA46 /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		825911F124513B580054CA46 /* SubtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		825911AC245110590054CA46 = {
 			isa = PBXGroup;
 			children = (
+				825911ED2451243B0054CA46 /* BarView.swift */,
 				825911B7245110590054CA46 /* Paul the Tutor */,
 				825911D12451105D0054CA46 /* Paul the TutorTests */,
 				825911DC2451105D0054CA46 /* Paul the TutorUITests */,
@@ -104,6 +111,8 @@
 				825911B8245110590054CA46 /* AppDelegate.swift */,
 				825911BA245110590054CA46 /* SceneDelegate.swift */,
 				825911BF245110590054CA46 /* ContentView.swift */,
+				825911F124513B580054CA46 /* SubtractionView.swift */,
+				825911EF24513A3A0054CA46 /* AdditionView.swift */,
 				825911C12451105C0054CA46 /* Assets.xcassets */,
 				825911C62451105C0054CA46 /* LaunchScreen.storyboard */,
 				825911C92451105C0054CA46 /* Info.plist */,
@@ -271,8 +280,11 @@
 			files = (
 				825911BE245110590054CA46 /* Paul_the_Tutor.xcdatamodeld in Sources */,
 				825911B9245110590054CA46 /* AppDelegate.swift in Sources */,
+				825911F024513A3A0054CA46 /* AdditionView.swift in Sources */,
 				825911C0245110590054CA46 /* ContentView.swift in Sources */,
 				825911BB245110590054CA46 /* SceneDelegate.swift in Sources */,
+				825911F224513B580054CA46 /* SubtractionView.swift in Sources */,
+				825911EE2451243B0054CA46 /* BarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
